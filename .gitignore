@@ -1,0 +1,20 @@
+# dependencies
+node_modules
+
+# logs
+*.log
+
+# next generate
+./dist
+.next
+
+# Idea
+.vscode
+vsconf.code-workspace
+
+# tests
+./**/*.test.*
+
+# Env
+.env
+

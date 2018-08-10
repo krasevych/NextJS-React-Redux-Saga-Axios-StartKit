@@ -1,0 +1,37 @@
+{
+    "presets": ["next/babel", "@zeit/next-typescript/babel"],
+    "plugins": [
+        [
+            "inline-import",
+            {
+                "extensions": [".css"]
+            }
+        ]
+    ],
+    "env": {
+        "development": {
+            "plugins": [
+                [
+                    "styled-components",
+                    {
+                        "ssr": true,
+                        "displayName": true,
+                        "preprocess": false
+                    }
+                ]
+            ]
+        },
+        "production": {
+            "plugins": [
+                [
+                    "styled-components",
+                    {
+                        "ssr": true,
+                        "displayName": false,
+                        "preprocess": false
+                    }
+                ]
+            ]
+        }
+    }
+}
