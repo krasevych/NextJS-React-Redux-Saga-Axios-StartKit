@@ -13,7 +13,7 @@ class App extends Component<AppProps> {
 
   render() {
     const { children } = this.props;
-    return <>{children}</>;
+    return <div>{children}</div>;
   }
 }
 

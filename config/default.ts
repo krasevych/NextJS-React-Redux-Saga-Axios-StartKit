@@ -4,8 +4,7 @@ const defaultEnv: Config = {
   port: 3005,
   cdnUrl: '/',
   isProd: false,
-  apiUrl: 'https://api.animatron-test.com/',
-
+  apiUrl: '',
   nextDevMode: true
 };
 
